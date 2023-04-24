@@ -156,11 +156,11 @@ theme = {
   },
   sliderConfig: function sliderConfig() {
     // Slider
-    var prev = '<div class="prev-chervon"><img src="' + (window.THEME_ASSET || 'assets') + '/images/icons/chevron-l.svg"/></div>',
-        next = '<div class="next-chervon"><img src="' + (window.THEME_ASSET || 'assets') + '/images/icons/chevron-r.svg"/></div>',
+    var prev = '<div class="prev-chervon"><img src="' + (window.THEME_ASSET || '') + './imgs/chevron-l.svg"/></div>',
+        next = '<div class="next-chervon"><img src="' + (window.THEME_ASSET || '') + './imgs/chevron-r.svg"/></div>',
         homeBanner = $('.section-home-banner .slider-wrapper');
-    var prevProperti = '<div class="prev-chervon properti"><img src="' + (window.THEME_ASSET || 'assets') + '/images/icons/chevron-l.svg"/></div>',
-        nextProperti = '<div class="next-chervon properti"><img src="' + (window.THEME_ASSET || 'assets') + '/images/icons/chevron-r.svg"/></div>'; // Home
+    var prevProperti = '<div class="prev-chervon properti"><img src="' + (window.THEME_ASSET || '') + './imgs/chevron-l.svg"/></div>',
+        nextProperti = '<div class="next-chervon properti"><img src="' + (window.THEME_ASSET || '') + './imgs/chevron-r.svg"/></div>'; // Home
 
     homeBanner.slick({
       arrows: true,
